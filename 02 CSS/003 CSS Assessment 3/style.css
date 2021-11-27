@@ -36,7 +36,7 @@ body {
 .image {
   position: absolute;
   left: 75%;
-  top: 205px;
+  top: 33%;
   text-align: center;
 }
 .image-grocery {
@@ -45,7 +45,7 @@ body {
 }
 .address {
   position: absolute;
-  top: 205px;
+  top: 33%;
   text-align: center;
   font-size: 25px;
   line-height: 55px;
@@ -56,7 +56,7 @@ body {
 }
 .third {
   position: absolute;
-  bottom: -25%;
+  top: 95%;
   font-size: 25px;
   font-weight: bolder;
   text-shadow: 2px 2px 5px black;
@@ -65,7 +65,7 @@ body {
   position: absolute;
   text-align: center;
   left: 75%;
-  bottom: -25%;
+  top: 95%;
 }
 .rate-input {
   text-align: center;
