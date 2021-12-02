@@ -98,7 +98,7 @@ ul {
 .grid-container {
   border: 1px solid gray;
   display: grid;
-  grid-template-columns: repeat(3, 30.5%) 5%;
+  grid-template-columns: repeat(3, 30.6%) 5%;
   gap: 15px 15px;
   /* border: 1px solid black; */
   /* grid-template-columns: repeat(3, 31.5%) 10%; */
