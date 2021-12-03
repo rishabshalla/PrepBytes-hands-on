@@ -111,7 +111,7 @@ ul {
   /* height: 60px; */
 }
 .b1 {
-  grid-column: 1/5;
+  grid-column: 1/-1;
   grid-row: 1/2;
   text-align: center;
   height: 40px;
@@ -153,7 +153,7 @@ ul {
   font-size: 21px;
 }
 .b7 {
-  grid-column: 1/5;
+  grid-column: 1/-1;
   grid-row: 4/5;
   text-align: center;
   color: black;

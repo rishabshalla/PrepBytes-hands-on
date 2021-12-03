@@ -1,0 +1,137 @@
+body {
+  background-image: url(./images/shara\ desert.jpg);
+  background-size: 1366px 630px;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: right;
+  padding-right: 60px;
+  /* border: 1px solid black; */
+}
+.menu {
+  margin: 30px;
+}
+.logo {
+  margin: 30px;
+  position: absolute;
+  left: 100px;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 530px;
+}
+.left {
+  /* border: 1px solid black; */
+  width: auto;
+  height: 400px;
+  color: white;
+  padding-top: 80px;
+  padding-left: 100px;
+}
+h1 {
+  font-size: 70px;
+  margin-bottom: 0px;
+}
+.right {
+  /* border: 1px solid black; */
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 20px;
+}
+.box {
+  /* border: 1px solid black; */
+  margin: 20px;
+  width: 200px;
+  border-radius: 10px;
+  color: white;
+  transition-duration: 0.5s;
+}
+.box1 {
+  background-image: url(./images/pic-1.png);
+  background-size: cover;
+}
+.box2 {
+  background-image: url(./images/pic-2.png);
+  background-size: cover;
+}
+.box3 {
+  background-image: url(./images/pic-3.png);
+  background-size: cover;
+}
+.box4 {
+  background-image: url(./images/pic-4.png);
+  background-size: cover;
+}
+h4 {
+  margin: 0px;
+  padding: 15px 0px 0px 20px;
+}
+.data {
+  font-size: 10px;
+  padding: 0px 20px 0px 20px;
+  line-height: 25px;
+  margin: 0px;
+}
+button {
+  padding: 10px 50px;
+  border-radius: 25px;
+  border: none;
+}
+.box:hover {
+  transform: translateY(-15px);
+}
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  body {
+    padding-left: 30px;
+  }
+  .header {
+    text-align: center;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    float: right;
+    padding: 0px;
+  }
+  .menu {
+    margin: 0px;
+  }
+  .hamburger {
+    grid-column: 2/3;
+    grid-row: 1/4;
+    position: relative;
+    left: 5px;
+    top: 18px;
+  }
+  .logo {
+    left: -10px;
+    top: -15px;
+  }
+  #logo {
+    width: 60px;
+  }
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: repeat(2, 1fr); */
+  }
+  .left {
+    padding: 0px;
+  }
+  h1 {
+    margin-top: 70px;
+    font-size: 30px;
+  }
+  .right {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .box {
+    height: 225px;
+    padding: auto;
+  }
+}
